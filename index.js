@@ -1,6 +1,21 @@
 const express = require('express');
-const app = express();
 const path = require('path');
+const members = require('./members');
+
+const app = express();
+
+// Middleware
+const logger = (req, res, next) => {
+    console.log("Hello");
+    next();
+};
+
+// Initialize middleware
+app.use(logger);
+
+// Members
+app.get("/api/members", (req, res) => res.json(members));
+
 
 // Sets a static folder
 app.use(express.static(path.join(__dirname, "templates")));
