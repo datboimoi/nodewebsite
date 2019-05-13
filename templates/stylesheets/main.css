@@ -1,0 +1,22 @@
+/* Body */
+body {
+    background-color: darkgrey;
+    color: black;
+}
+/* Header */
+header{
+    background-color: darkolivegreen;
+    color: aliceblue;
+    width: 100%;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: darkgrey;
+    text-align: justify;
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
