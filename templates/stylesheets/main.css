@@ -1,6 +1,6 @@
 /* Body */
 body {
-    background-color: darkgrey;
+    background-color: lightgray;
     color: black;
 }
 /* Header */
@@ -12,11 +12,22 @@ header{
 /* Footer */
 footer {
     background-color: black;
-    color: darkgrey;
+    color: lightgray;
     text-align: justify;
+    
 }
 
-a {
-    color: darkgrey;
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+    justify-content: center;
+    margin: 5px;
+}
+
+footer a {
+    color: lightgrey;
     text-decoration: none;
 }
